@@ -1,0 +1,26 @@
+.head{
+    height: 90vh;
+    background-image: url('/src/Assets/Header.jpg');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-attachment: fixed; */
+}
+.cardContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+    .head{
+        background-image: none;
+    }
+    .cardContainer{
+        padding-top: 0;
+        flex-direction: column;
+    }
+}

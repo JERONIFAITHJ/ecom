@@ -1,0 +1,24 @@
+.recommendationContainer{
+    display: flex;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.recomGallery{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    gap: 10px !important;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    padding-top: 15px;
+}
+.imgContainer{
+    width: auto;
+    height: auto;
+}

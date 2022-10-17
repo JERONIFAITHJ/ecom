@@ -1,0 +1,38 @@
+.offerContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.offerContainer > h1 {
+    padding: 10px;
+}
+.cardGallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex: 1; */
+    overflow: auto;
+}
+.offerCards{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #eaeded ;
+    min-width: 250px;
+    /* height: 250px; */
+}
+.offerContainer p{
+    padding-top: 5px;
+}
+.offerContainer span{
+    margin-right: 5px;
+    background-color: rgb(164, 14, 14);
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+}
